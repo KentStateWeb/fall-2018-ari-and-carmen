@@ -1,3 +1,4 @@
+/*global styles*/
 body {
   max-width: 1000px;
   padding: 1em;
@@ -9,3 +10,13 @@ div, section, main, aside, header, footer {
   padding: .5em;
   margin-bottom: 1em;
 }
+
+@font-face {
+    font-family: 'hot_and_black_tearegular';
+    src: url('hot_and_black_tea_-_otf-webfont.woff2') format('woff2'),
+         url('hot_and_black_tea_-_otf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*navigation*/
