@@ -1,15 +1,4 @@
 /*global styles*/
-body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
-}
 
 @font-face {
     font-family: 'hot_and_black_tearegular';
@@ -17,6 +6,210 @@ div, section, main, aside, header, footer {
          url('hot_and_black_tea_-_otf-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
+
+body {
+  max-width: 2000px;
+  padding:0px;
+  margin:0px;
+  font-family: Optima, sans-serif;
+}
+
+div, section, main, aside, header, footer {
+  border:0px;
+  padding:0px;
+  margin-bottom:0px;
+}
+
+
+
+
 /*navigation*/
+
+
+.home-logo{
+  max-width:300px;
+  float:left;
+  padding:0px;
+  margin:0px;
+}
+
+.home-logo:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.instagram-icon{
+  max-width:100px;
+  float:right;
+  padding:0px;
+  padding-top:50px;
+  margin:0px;
+  padding-left:50px;
+  padding-right:30px;
+
+}
+
+.instagram-icon:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.facebook-icon{
+  max-width:82px;
+  float:right;
+  padding:0px;
+  padding-top:48px;
+  margin:0px;
+  padding-left:30px;
+}
+
+.facebook-icon:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.main-nav{
+  list-style-type:none;
+  text-align:center;
+  display:inline-block;
+  font-size:34px;
+  padding:60px;
+  padding-top:60px;
+  padding-bottom:5px;
+  background-color:white;
+  color:#071c87;
+  font-weight:bold;
+  padding-bottom:10px;
+
+}
+
+.main-nav:hover{
+  color:#a7c3ff;
+}
+
+.dropdown{
+    position:relative;
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+    padding-bottom:30px;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color:#f9f9f9;
+    min-width:200px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding-left:10px;
+    z-index:1;
+    list-style-type:none;
+    margin-left:55px;
+    padding:20px;
+    color:#071c87;
+    font-weight:bold;
+}
+
+.dropdown-content li:hover{
+    color:#a7c3ff;
+}
+
+.dropdown-content li{
+  padding:8px;
+  font-size:20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*main content*/
+
+main{
+  background-image:url("images/Pattern-03.svg");
+  max-width:2000px;
+  background-size:cover;
+  height:860px;
+
+}
+
+
+
+h1{
+  font-family:'hot_and_black_tearegular';
+  color:white;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:70px;
+  padding:0px;
+  margin:0px;
+  padding-left:610px;
+  display:inline-block;
+  line-height:0px;
+  letter-spacing:10px;
+
+}
+
+.welcome{
+  font-family:'hot_and_black_tearegular';
+  color:white;
+  font-weight:normal;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:230px;
+  padding-top:100px;
+  margin:0px;
+  display:inline-block;
+  line-height:250px;
+  letter-spacing:20px;
+  padding-left:600px;
+
+}
+
+.white-logo{
+  max-width:400px;
+  float:center;
+  display:inline-block;
+  padding-top:50px;
+}
+
+h2{
+  font-size:60px;
+  text-align:center;
+  padding-top:10px;
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#071c87;
+}
+
+.how-it-works{
+  max-width:1200px;
+  padding-left:300px;
+  padding-top:0px;
+  margin-top:0px;
+}
+
+h3{
+  display:inline;
+  text-transform:uppercase;
+  font-style:italic;
+  color:#ced369;
+  font-size:24px;
+  padding-left:150px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+}
+
+h3.left{
+  display:inline;
+  padding-left:450px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+
+
+}
