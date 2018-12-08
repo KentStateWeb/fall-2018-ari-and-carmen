@@ -511,9 +511,47 @@ a:hover{
   max-width:2000px;
   background-size:cover;
   max-height:430px;
+  margin-bottom:60px;
+}
+
+
+
+h1{
+  font-family:'hot_and_black_tearegular';
+  color:white;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:100px;
+  padding:0px;
+  margin:0px;
+  padding-left:170px;
+  display:inline-block;
+  line-height:0px;
+  letter-spacing:10px;
+  margin:200px;
 
 }
 
+p{
+  color:#071c87;
+  max-width: 900px;
+  padding-left: 280px;
+  line-height: 30px;
+  font-size:20px;
+}
+
+
+.bbtea{
+  color:#071c87;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
 
 
 h1{
@@ -525,10 +563,70 @@ h1{
   font-size:70px;
   padding:0px;
   margin:0px;
-  padding-left:610px;
   display:inline-block;
   line-height:0px;
   letter-spacing:10px;
-  margin:200px;
+  margin:180px;
+  margin-left:0px;
+  margin-right:0px;
+  padding-left:235px;
 
+}
+
+p{
+  color:#071c87;
+  max-width: 700px;
+  padding-left:170px;
+  line-height: 30px;
+  font-size:20px;
+}
+
+
+.bbtea{
+  color:#071c87;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+h1{
+  font-family:'hot_and_black_tearegular';
+  color:white;
+  font-weight:bold;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:40px;
+  padding:0px;
+  margin:0px;
+  display:inline-block;
+  line-height:0px;
+  letter-spacing:5px;
+  margin:150px;
+  margin-left:0px;
+  margin-right:0px;
+  padding-left:45px;
+
+}
+
+p{
+  color:#071c87;
+  max-width: 500px;
+  padding-left:45px;
+  padding-right:30px;
+  line-height: 30px;
+  font-size:18px;
+}
+
+
+.bbtea{
+  color:#071c87;
+  font-size: 25px;
+  font-weight: bold;
+
+}
 }

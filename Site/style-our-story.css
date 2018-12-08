@@ -509,6 +509,11 @@ a:hover{
   margin-left:490px;
 
 }
+@media only screen and (min-width: 501px) {
+.original-logo-smaller{
+  display:none;
+}
+}
 
 h1{
   font-family:hot_and_black_tearegular;
@@ -526,9 +531,10 @@ p{
   padding-left:230px;
   padding-bottom:20px;
   max-width:1000px;
-  font-size:30px;
+  font-size:24px;
   line-height:50px;
   margin-top:0px;
+  color:#071c87;
 }
 
 
@@ -564,29 +570,32 @@ p{
 
 @media only screen and (max-width:600px) {
   .original-logo{
-    margin:0px;
-    padding:0px;
-    max-width:30%;
+    display:none;
   }
+
+.original-logo-smaller{
+    padding-left:45px;
+}
 
   h1{
     font-family:hot_and_black_tearegular;
-    font-size:90px;
+    font-size:60px;
     font-weight:bold;
     letter-spacing:4px;
     color:#071c87;
     margin:0px;
     padding-top:80px;
-    padding-left:50px;
+    padding-left:85px;
   }
 
   p{
     display:inline-block;
     padding-left:50px;
+    padding-right:30px;
     padding-bottom:20px;
-    max-width:900px;
-    font-size:25px;
-    line-height:50px;
+    max-width:450px;
+    font-size:16px;
+    line-height:40px;
     margin-top:0px;
   }
 
