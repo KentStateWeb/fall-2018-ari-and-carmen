@@ -505,6 +505,27 @@ a:hover{
 
 /*main content*/
 
-.main-logo{
-  max-width:50px;
+.original-logo{
+  margin-left:470px;
+
+}
+
+h1{
+  font-family:hot_and_black_tearegular;
+  font-size:100px;
+  font-weight:bold;
+  letter-spacing:4px;
+  color:#071c87;
+  padding-left:30px;
+  margin:0px;
+  padding-top:30px;
+}
+
+p{
+  display:inline-block;
+  padding-left:30px;
+  padding-bottom:20px;
+  max-width:1000px;
+  font-size:30px;
+  line-height:50px;
 }
