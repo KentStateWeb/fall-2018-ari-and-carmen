@@ -505,89 +505,30 @@ a:hover{
 
 /*main content*/
 
-.original-logo{
-  margin-left:490px;
+
+.green-area{
+  background-image:url("images/Pattern-04.svg");
+  max-width:2000px;
+  background-size:cover;
+  max-height:430px;
 
 }
+
+
 
 h1{
-  font-family:hot_and_black_tearegular;
-  font-size:100px;
+  font-family:'hot_and_black_tearegular';
+  color:white;
   font-weight:bold;
-  letter-spacing:4px;
-  color:#071c87;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:70px;
+  padding:0px;
   margin:0px;
-  padding-top:80px;
-  padding-left:230px;
-}
-
-p{
+  padding-left:610px;
   display:inline-block;
-  padding-left:230px;
-  padding-bottom:20px;
-  max-width:1000px;
-  font-size:30px;
-  line-height:50px;
-  margin-top:0px;
-}
-
-
-@media only screen and (max-width: 1000px) {
-  .original-logo{
-    margin-left:280px;
-
-  }
-
-  h1{
-    font-family:hot_and_black_tearegular;
-    font-size:90px;
-    font-weight:bold;
-    letter-spacing:4px;
-    color:#071c87;
-    margin:0px;
-    padding-top:80px;
-    padding-left:50px;
-  }
-
-  p{
-    display:inline-block;
-    padding-left:50px;
-    padding-bottom:20px;
-    max-width:900px;
-    font-size:25px;
-    line-height:50px;
-    margin-top:0px;
-  }
-
-}
-
-
-@media only screen and (max-width:600px) {
-  .original-logo{
-    margin:0px;
-    padding:0px;
-    max-width:30%;
-  }
-
-  h1{
-    font-family:hot_and_black_tearegular;
-    font-size:90px;
-    font-weight:bold;
-    letter-spacing:4px;
-    color:#071c87;
-    margin:0px;
-    padding-top:80px;
-    padding-left:50px;
-  }
-
-  p{
-    display:inline-block;
-    padding-left:50px;
-    padding-bottom:20px;
-    max-width:900px;
-    font-size:25px;
-    line-height:50px;
-    margin-top:0px;
-  }
+  line-height:0px;
+  letter-spacing:10px;
+  margin:200px;
 
 }
