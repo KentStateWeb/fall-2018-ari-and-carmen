@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ming's Bubble Tea</title>
+    <meta name="description" content="Bubble Tea Menu">
+  </head>
+  <body>
+       <!-- The page content goes here -->
+      <link href="style-drinks.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
+
+
+      <nav>
+
+        <a href="index.html"><img src="images/Ming's Logo face.png" class="home-logo" alt="Ming's minimized logo"></a>
+
+        <a href="https://www.instagram.com/mingsbubbletea/?hl=en"><img src="images/instagram logo blue.png" class="instagram-icon" alt="instagram icon"></a>
+
+        <a href="https://www.facebook.com/mingsbubbletea/"><img src="images/facebook logo blue.png" class="facebook-icon" alt="facebook icon"></a>
+
+
+      <!--dropdown-->
+      <div class="dropdown">
+          <ul class="about-dropdown">
+            <li class="main-nav">About</li>
+          <div class="dropdown-content">
+            <li><a href="what-is-bbtea.html">What is Bubble Tea?</a></li>
+            <li><a href="our-story.html">Our Story</a></li> </div>
+          </ul>
+      </div>
+
+      <div class="dropdown">
+          <ul class="menu-dropdown">
+            <li class="main-nav">Menu</li>
+          <div class="dropdown-content">
+            <li>Snack Bar</li>
+            <li><a href="drinks.html">Bubble Tea</a></li>
+            <li><a href="topping.html">Drink Toppings</a></li>
+            <li>Seasonal Drinks</li> </div>
+          </ul>
+      </div>
+
+      <div class="dropdown">
+          <ul class="order-dropdown">
+            <li class="main-nav">Order</li>
+
+          </ul>
+      </div>
+
+      <div class="dropdown">
+          <ul class="contact-dropdown">
+            <li class="main-nav">Contact Us</li>
+          </ul>
+      </div>
+
+       </nav>
+
+
+
+
+
+
+
+      <div class="mobile">
+       <!--    Made by Erik Terwan    -->
+       <!--   24th of November 2015   -->
+       <!--        MIT License        -->
+       <nav role='navigation'>
+         <div id="menuToggle">
+           <!--
+           A fake / hidden checkbox is used as click reciever,
+           so you can use the :checked selector on it.
+           -->
+           <input type="checkbox" />
+
+           <!--
+           Some spans to act as a hamburger.
+
+           They are acting like a real hamburger,
+           not that McDonalds stuff.
+           -->
+           <span></span>
+           <span></span>
+           <span></span>
+
+           <!--
+           Too bad the menu has to be inside of the button
+           but hey, it's pure CSS magic.
+           -->
+           <ul id="menu">
+             <a href="#"><li><b>About</b></li></a>
+             <div class="tab"><a href="what-is-bbtea.html"><li><blockquote>What is Bubble Tea?</blockquote></li></a>
+               <a href="our-story.html"><li><blockquote>Our Story</blockquote></li></a></div>
+             <a href="#"><li><b>Menu</b></li></a>
+             <div class="tab"><a href="#"><li><blockquote>Snack Bar</blockquote></li></a>
+             <a href="drinks.html"><li><blockquote>Bubble Tea</blockquote></li></a>
+             <a href="topping.html"><li><blockquote>Drink Toppings</blockquote></li></a>
+             <a href="#"><li><blockquote>Seasonal Drinks</blockquote></li></a></div>
+
+             <a href="#"><li><b>Order</b></li></a>
+             <a href="#"><li><b>Contact Us</b></li></a>
+           </ul>
+         </div>
+
+       </nav>
+      </div>
+
+
+      <body>
+<h1>BUBBLE TEA</h1>
+  <h2 class="milk">Milk Tea <span class="iced-or-hot">(Iced or Hot)</span></h2>
+  <p>Milk Teas use non-dairy milk or milk powder with water and/or green or black tea</p>
+
+<ul>
+<li>Taro Milk Tea</li>
+<li>Jasmine Green Milk Tea</li>
+<li>Honeydew Milk Tea</li>
+<li>Classic Black Milk Tea</li>
+<li>Almond Milk Tea</li>
+<li>Red Bean Milk Tea</li>
+</ul>
+
+
+<h2 class="fresh">Fresh Milk Tea <span class="iced-or-hot">(Iced or Hot)</span></h2>
+<p>Fresh Milk Teas use either regular milk or whole milk. The consistency of fresh milk tea is usually thicker than milk tea.</p>
+  <ul>
+<li>Black Tea & Fresh Milk</li>
+<li>Green Tea & Fresh Milk</li>
+<li>Wintermelon & Fresh Milk</li>
+<li>Vanila Chai & Fresh Milk</li>
+</ul>
+
+<h2 class="fruit">Fruit Tea</h2>
+<p>Fruit Teas are a mix of fruit juices and/or fruit flavored green or black tea.</p>
+  <ul>
+<li>Mango & Passionfruit Tea</li>
+<li>Fruit Garden Tea</li>
+<li>Blueberry Green Tea</li>
+<li>Peach Green Tea</li>
+<li>Mango Green Tea</li>
+<li>Grapefruit Green Tea</li>
+<li>Strawberry Black Tea</li>
+<li>Passionfruit Green Tea</li>
+<li>Green Apple Tea</li>
+<li>Kumquat & Lemon Tea</li>
+  </ul>
+
+<h2 class="classic">Classic Tea <span class="iced-or-hot">(Iced or Hot)</span></h2>
+<p>Classic Teas are a traditionally flavored, lighter tasting drink, with a green tea or ginger base</p>
+  <ul>
+<li>Classic Green Tea</li>
+<li>Honey Green Tea</li>
+<li>Ginger Tea</li>
+  </ul>
+
+<h2 class="snow">Snow</h2>
+<p>A Snow is a sweet mix of blended ice, fruit, and non-dairy milk or milk powder</p>
+  <ul>
+<li>Strawberry & Banana Snow</li>
+<li>Mango & Banana Snow</li>
+<li>Peach & Banana Snow</li>
+<li>Pineapple & Banana Snow</li>
+<li>Blueberry & Banana Snow</li>
+<li>Mango, Pineapple & Banana Snow</li>
+<li>Strawberry, Peach & Banana Snow</li>
+<li>Veryberry Snow</li>
+  </ul>
+
+<h2 class="yakult">Yakult</h2>
+<p>Yakult is a mixture of a popular Japanese probiotic yogurt beverage with fruit juice.</p>
+  <ul>
+<li>Mango Yakult</li>
+<li>Peach Yakult</li>
+<li>Passionfruit Yakult</li>
+<li>Kumquat & Lemon Yakult</li>
+  </ul>
+
+<button type="button">Order</button>
+
+
+
+</body>
+
+
+
+      <footer>
+        <p class="bottom">1699 E Main St, Kent OH | (330) 968-6077</p>
+      <nav>
+      			<ul class="bottom-nav">
+      				<li><a href="#">Hours</a></li>
+      				<li><a href="#">Contact Us</a></li>
+      				<li><a href="#">Nutrition</a></li>
+      				<li><a href="#">Merchandise</a></li>
+
+      		</ul>
+      	</nav>
+      </footer>
+
+  </body>
+</html>
